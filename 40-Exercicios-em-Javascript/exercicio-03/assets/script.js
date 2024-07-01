@@ -1,0 +1,1 @@
+alert('Olá, venho do arquivo da pasta ao lado.')
