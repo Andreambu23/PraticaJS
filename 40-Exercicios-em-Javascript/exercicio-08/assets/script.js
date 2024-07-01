@@ -4,6 +4,8 @@ document.getElementById("cpfForm").addEventListener("submit", function(event){
     let cpf = document.getElementById("cpf")
     let exibeCpf = document.getElementById("exibeCpf")
 
+
+    console.log(cpf.value)
     exibeCpf.innerHTML = cpf.value
     .replace(/\D/g, "")
     .replace(/(\d{3})(\d)/, "$1.$2")
