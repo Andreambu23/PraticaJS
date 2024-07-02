@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio-09</title>
+    <title>Exercício 10</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
 
-    <div class="container">
-        <h3>Remover pontos no CPF inserido</h3>
+    <div class="container-input">
+        <span>1º Número</span>
+        <input type="text" id="soma1">
+        <span>2º Número</span>
+        <input type="text" id="soma2">
+    </div>
 
-        <form id="cpfForm">
-            <label for="cpf">CPF:</label>
-            <input type="text" maxlength="14" id="cpf" name="cpf" placeholder="Apenas números">
-            <input type="submit" value="Enviar" id="enviar">
-        </form>
+    <div class="submit">
+        <button type="submit" id="somar">Somar</button>
     </div>
-    <div class="areaResultado">
-        <p id="exibeCpf"></p>
+
+    <div class="container-resultado">
+        <span id="resultado-soma"></span>
     </div>
-    
+
+
+
     <script src="./assets/script.js"></script>
 </body>
+
 </html>

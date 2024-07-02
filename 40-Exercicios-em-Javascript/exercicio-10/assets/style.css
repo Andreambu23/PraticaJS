@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-family: "RocknRoll One", sans-serif;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.container-input span{
+    font-size: 20px;
+    text-decoration: underline;
+    color: brown;
+}
+
+.container-input input{
+    width: 50px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    background: white;
+    text-align: center;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.submit button{
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.container-resultado{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.submit button:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
