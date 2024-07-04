@@ -1,3 +1,8 @@
+/*
+    Durante a pesquisa para resolver este exercício, foi possível encontrar no Stack Overflow uma resolução identica, a mesma foi aplicada aqui e funcionou perfeitamente, ainda não entendi completamente a lógica das substituições/adições ou remoções dos pontos nos locais necessários.
+*/
+
+
 document.getElementById("cpfForm").addEventListener("submit", function(event){
     event.preventDefault();
 
